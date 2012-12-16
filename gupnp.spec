@@ -1,11 +1,11 @@
 Summary:	UPnP library
 Name:		gupnp
-Version:	0.19.2
+Version:	0.19.3
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gupnp/0.19/%{name}-%{version}.tar.xz
-# Source0-md5:	9349f79dec61de7508fe1a2b66676c3d
+# Source0-md5:	8165c3ad3d16576a0a99250b75df23f8
 URL:		http://gupnp.org/
 BuildRequires:	autoconf
 BuildRequires:	automake

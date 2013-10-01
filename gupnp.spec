@@ -1,16 +1,16 @@
 Summary:	UPnP library
 Name:		gupnp
-Version:	0.19.4
+Version:	0.20.6
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/gupnp/0.19/%{name}-%{version}.tar.xz
-# Source0-md5:	516549cebc5af416f2fd7177d6512a0f
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/gupnp/0.20/%{name}-%{version}.tar.xz
+# Source0-md5:	2298f964c35f94e941af1ca688955733
 URL:		http://gupnp.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gobject-introspection-devel
-BuildRequires:	gssdp-devel
+BuildRequires:	gssdp-devel >= 0.14.5
 BuildRequires:	gtk-doc
 BuildRequires:	libsoup-devel
 BuildRequires:	libtool
